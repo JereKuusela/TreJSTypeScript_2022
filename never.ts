@@ -20,3 +20,14 @@ unknown = any
 any = unknown
 never = any
 any = never
+
+// If you have issues with types:
+
+// 1. Try never.
+
+// 2. If it doesn't work, try unknown.
+
+// 3. ???
+
+// 4. Or just use any and suppress the eslint warning.
+

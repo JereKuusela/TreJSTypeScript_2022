@@ -1,5 +1,5 @@
 
-
+{
 type A = { foo: string, bar: string}
 type B = Partial<A>
 type C = Required<B>
@@ -20,4 +20,4 @@ type K = ("foo" | "bar") & ("foo" | "test")
 type L = NonNullable<null | "foo">
 type M = Parameters<(foo: string, bar: number) => void>
 type N = ReturnType<(foo: string, bar: number) => void>
-
+}

@@ -47,3 +47,5 @@ type Lang = typeof langNested
   type Mapper<Key, Value> = Value extends string ? Key : keyof Prefixer<Key,Value>
   type Keys = keyof {[K in keyof Lang as Mapper<K, Lang[K]>]: string}
 }
+
+
