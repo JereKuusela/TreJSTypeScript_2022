@@ -2,10 +2,6 @@
   "foo": "Bar",
   "main": {
     "title": "Main",
-    "header": "Header",
-    "sub": {
-      "title": "Sub",
-      "header": "Header"
-    }
+    "header": "Header"
   }
 }

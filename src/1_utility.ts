@@ -1,3 +1,4 @@
+// Check https://www.typescriptlang.org/docs/handbook/utility-types.html instead.
 {
   type A = { foo: string; bar: string }
   type B = Partial<A>
